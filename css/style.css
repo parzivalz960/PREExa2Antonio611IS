@@ -398,119 +398,14 @@ textarea.input {
   color: #006299;
 }
 
-/*=========================================================
-	02 -> HEADER
-===========================================================*/
 
-/*----------------------------*\
-	Top header
-\*----------------------------*/
-
-#top-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #FFFFFF;
-}
-
-.header-links li {
-  display: inline-block;
-  margin-right: 15px;
-  font-size: 12px;
-}
-
-.header-links li:last-child {
-  margin-right: 0px;
-}
-
-.header-links li a {
-  color: #000;
-}
-
-.header-links li a:hover {
-  color: #B2B2B2;
-}
-
-.header-links li i {
-  color: #000;
-  margin-right: 5px;
-}
-
-/*----------------------------*\
-	Logo
-\*----------------------------*/
-
-#header {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #FFFFFF;
-}
-
-.header-logo {
-  float: left;
-}
-
-.header-logo .logo img {
-  display: block;
-}
-
-/*----------------------------*\
-	Iniciar sesión | Registrarme
-\*----------------------------*/
-
-.header-ctn {
-  float: right;
-  padding: 15px 0px;
-}
-
-.header-ctn>div {
-  display: inline-block;
-}
-
-.header-ctn>div+div {
-  margin-left: 15px;
-}
-
-.header-ctn>div>a {
-  display: block;
-  position: relative;
-  width: 130px;
-  text-align: center;
-  color: #000;
-}
-
-.header-ctn>div>a>i {
-  display: block;
-  font-size: 18px;
-}
-
-.header-ctn>div>a>span {
-  font-size: 12px;
-}
-
-.header-ctn>div>a>.qty {
-  position: absolute;
-  right: 15px;
-  top: -10px;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
-  border-radius: 50%;
-  font-size: 10px;
-  color: #FFF;
-  background-color: #006299;
-}
-
-.header-ctn .menu-toggle {
-  display: none;
-}
 
 /*=========================================================
 	03 -> Navigation
 ===========================================================*/
 
 #navigation {
-  background: #fff;
+  background: #f2ff00;
   border-bottom: 1px solid #006299;
   border-top: 5px solid #006299;
 }
@@ -529,7 +424,7 @@ textarea.input {
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
   color: #006299;
-  background-color: transparent;
+  
 }
 
 .main-nav>li>a:after {
